@@ -27,7 +27,7 @@ _Proyecto elaborado por:_
 * **Miguel Valera** - *UX/UI & Frontend Developer* - [miguelvalera.es](https://miguelvalera.es)
 
 
-## Expresiones de Gratitud 🎁 
+## ¡Gracias por ver este proyecto! 🎁 
 
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
