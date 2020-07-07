@@ -3,14 +3,14 @@
 _Sinedie es un proyecto web one page desarrollado únicamente en HTML5 y CSS3._
 
 
-🖥️ ### Página Web 
+### Página Web 🖥️ 
 
 _Puedes navegar por la web de Sinedie desde cualquier dispositivo aquí:_
 
 _https://miguelvalera.es/sinedie_
 
 
-🛠️ ## Construido con 
+## Construido con 🛠️ 
 
 _Herramientas y software utilizado en el desarrollo del proyecto:_
 
@@ -20,14 +20,14 @@ _Herramientas y software utilizado en el desarrollo del proyecto:_
 * [CSS3](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de estilo visual
 
 
-✒️ ## Autor 
+## Autor ✒️ 
 
 _Proyecto elaborado por:_
 
 * **Miguel Valera** - *UX/UI & Frontend Developer* - [miguelvalera.es](https://miguelvalera.es)
 
 
-🎁 ## Expresiones de Gratitud 
+## Expresiones de Gratitud 🎁 
 
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
