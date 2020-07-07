@@ -3,7 +3,7 @@
 _Sinedie es un proyecto web one page desarrollado únicamente en HTML5 y CSS3._
 
 
-### Instalación 🔧
+### Página Web 🖥️
 
 _Puedes navegar por la web de Sinedie desde cualquier dispositivo aquí:_
 
