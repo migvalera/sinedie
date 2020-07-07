@@ -15,6 +15,7 @@ _https://migvalera.github.io/sinedie/index.html_
 _Herramientas y software utilizado en el desarrollo del proyecto:_
 
 * [Figma](https://www.figma.com/) - Programa de diseño
+* [Unsplash](https://unsplash.com/) - Biblioteca de imágenes gratuitas
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código
 * [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5) - Lenguaje de marcado
 * [CSS3](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de estilo visual
