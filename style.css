@@ -1,0 +1,444 @@
+/* ========================= ESTILOS GENERALES ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  padding: 2rem 6rem;
+  background: #652cea;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #131c27;
+}
+
+/* ========================= NAV SECTION Y HERO ========================= */
+
+.main-head {
+  background: rgba(19, 28, 39, 1);
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  height: 6rem;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+nav li:hover {
+  opacity: 0.5;
+}
+
+#logo {
+  font-family: "Pattaya", "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("img/landing-page.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h3 {
+  padding: 4rem;
+}
+
+/* ========================= SECCIÓN DESTINOS ========================= */
+
+#destinos {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("img/new-york-page.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.destinos-head {
+  width: 90%;
+  margin: auto;
+}
+
+.destinos-head h2 {
+  padding: 1rem 0rem;
+  text-decoration: underline;
+}
+
+.destinos-head h3 {
+  padding: 4rem 0rem;
+}
+
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 40rem;
+}
+
+.moving-cloud-1 {
+  animation: cloudAnimation 6s infinite alternate ease-in-out;
+}
+
+.moving-cloud-2 {
+  top: 10%;
+  z-index: -1;
+  opacity: 0.5;
+  animation: cloudAnimation 9s infinite alternate ease-in-out;
+}
+
+@keyframes cloudAnimation {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+
+/* ========================= SECCIÓN SERVICIOS ========================= */
+
+.servicios-head {
+  background-color: #343c44;
+  padding: 3rem;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.servicios-head h3 {
+  padding: 1rem;
+}
+
+.tarjetas {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  perspective: 800px;
+  justify-content: space-around;
+}
+
+.tarjeta {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  max-width: 30rem;
+  margin: 10rem 3rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tarjeta:hover {
+  transform: rotate3D(1, 0, 0, 6deg);
+}
+
+.tarjeta-icono {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.vuela {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("img/vuela.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.viaja {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("img/viaja.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.duerme {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("img/duerme.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.tarjetas img {
+  max-width: 15%;
+  margin: 2rem;
+}
+
+.tarjeta h4,
+.tarjeta p {
+  padding: 1.5rem;
+}
+
+/* ========================= SECCIÓN CONTACTO ========================= */
+
+#contacto {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(img/contact-mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-contenedor {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60rem;
+  color: white;
+  border-radius: 20px;
+}
+
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contenedor label {
+  margin: 2rem 6rem 0rem 6rem;
+}
+
+.form-contenedor button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-contenedor input {
+  padding: 1rem 2rem;
+  margin: 2rem 6rem;
+}
+
+#mensaje {
+  padding: 1rem 2rem;
+  height: 10rem;
+  font-size: 2rem;
+  margin: 2rem 6rem;
+  outline-color: #652cea;
+}
+
+input:focus {
+  outline-color: #652cea;
+}
+
+/* Añadimos fondo oscuro también en focus para mejorar accesibilidad en navegación con teclado. */
+button:focus {
+  outline-color: #652cea;
+  background: #131c27;
+}
+
+/* ========================= FOOTER ========================= */
+
+footer {
+  color: white;
+  background: rgba(19, 28, 39, 1);
+}
+
+.footer-contenedor {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 15vh;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer li {
+  margin-left: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+footer li:hover {
+  opacity: 0.5;
+}
+
+footer h5 {
+  flex: 1 1 40rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+/* ========================= MEDIA QUERY VERSIÓN TABLET & MOBILE ========================= */
+
+@media screen and (max-width: 935px) {
+  nav li {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cloud {
+    pointer-events: none;
+  }
+  .moving-cloud-1 {
+    opacity: 0.4;
+  }
+
+  .moving-cloud-2 {
+    display: none;
+  }
+
+  .hero h2 {
+    padding: 4rem;
+  }
+
+  .destinos-head h2 {
+    text-align: center;
+  }
+
+  .destinos-head h3 {
+    background: rgba(19, 28, 39, 0.8);
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 3rem 2rem;
+  }
+
+  .servicios-head {
+    margin-bottom: 5rem;
+  }
+
+  .tarjeta {
+    margin: 5rem 2rem;
+  }
+
+  .tarjeta:last-of-type {
+    max-width: 30rem;
+    margin-bottom: 10rem;
+  }
+
+  #mensaje,
+  .form-contenedor input {
+    margin: 2rem 2rem;
+  }
+
+  .form-contenedor label {
+    margin: 2rem 2rem 0rem 2rem;
+  }
+
+  footer ul {
+    justify-content: center;
+  }
+
+  footer li {
+    margin: 2rem;
+  }
+
+  footer h5 {
+    text-align: center;
+    order: 2;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+
+  .form-contenedor {
+    width: 80%;
+  }
+}

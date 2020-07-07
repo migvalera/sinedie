@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description"
+        content="Sinedie es una agencia de viajes que te ayuda a hacer realidad las vacaciones de tus sueños." />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="icons/airplane.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sinedie | Agencia de viajes</title>
+</head>
+
+<body>
+
+    <!-- ========================= NAV SECTION Y HERO ========================= -->
+    <header class="main-head">
+        <nav>
+            <h1 id="logo"> <a href="#">Sinedie</a> </h1>
+            <ul>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Viaja sin límites. Viaja Sine Die.</h2>
+            <h3>Empieza a organizar el viaje de tu vida... <br /> Nosotros te ayudamos</h3>
+            <button>Reserva ahora</button>
+        </section>
+
+        <!-- ========================= SECCIÓN DESTINOS ========================= -->
+        <section id="destinos">
+            <header class="destinos-head">
+                <h2>La experiencia de viaje perfecta.</h2>
+                <h3>Nos encargamos de encontrar el hotel y vuelo perfectos, <br />
+                    al destino que quieras descubrir.</h3>
+                <img src="img/cloud.png" alt="" class="moving-cloud-1 cloud" />
+                <img src="img/cloud.png" alt="" class="moving-cloud-2 cloud" />
+            </header>
+        </section>
+
+        <!-- ========================= SECCIÓN SERVICIOS ========================= -->
+        <section id="servicios">
+            <header class="servicios-head">
+                <h2>El Viaje de tus Sueños</h2>
+                <h3>Cubrimos todo lo que necesitas para hacer tu sueño realidad.</h3>
+            </header>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <div class="tarjeta-icono vuela">
+                        <img src="icons/plane-departure-solid.svg" alt="Icono de vuelo" />
+                    </div>
+                    <h4>Vuela</h4>
+                    <p>El mejor vuelo incluído en tu viaje.</p>
+                </div>
+                <div class="tarjeta">
+                    <div class="tarjeta-icono viaja">
+                        <img src="icons/route-solid.svg" alt="Icono de ruta" />
+                    </div>
+                    <h4>Viaja</h4>
+                    <p>Desubre más de 150 países.</p>
+                </div>
+                <div class="tarjeta">
+                    <div class="tarjeta-icono duerme">
+                        <img src="icons/bed-solid.svg" alt="Icono de alojamiento" />
+                    </div>
+                    <h4>Duerme</h4>
+                    <p>Duerme a gusto, recarga energía.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========================= SECCIÓN CONTACTO ========================= -->
+        <section id="contacto">
+            <div class="form-contenedor">
+                <header class="form-head">
+                    <h2>Cuéntanos</h2>
+                </header>
+                <form action="">
+                    <div class="mensaje-form">
+                        <label for="mensaje">Tu mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="email-form">
+                        <label for="email">Tu email:</label>
+                        <input id="email" type="email" name="email" required />
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================= FOOTER ========================= -->
+
+    <footer>
+        <div class="footer-contenedor">
+            <h5>&copy; 2020 Sinedie </h5>
+            <ul>
+                <li><a href="#" title="twitter-social-media"><img src="icons/twitter.svg"
+                            alt="Icono twitter Sinedie" /></a></li>
+                <li><a href="#" title="instagram-social-media"><img src="icons/instagram.svg"
+                            alt="Icono instagram Sinedie" /></a></li>
+                <li><a href="#" title="youtube-social-media"><img src="icons/youtube.svg"
+                            alt="Icono youtube Sinedie" /></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
