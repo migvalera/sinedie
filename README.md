@@ -7,7 +7,7 @@ _Sinedie es un proyecto web one page responsive desarrollado únicamente en HTML
 
 _Puedes navegar por la web de Sinedie desde cualquier dispositivo aquí:_
 
-_https://migvalera.github.io/sinedie/index.html_
+* [Ver web Sinedie] (https://migvalera.github.io/sinedie/index.html/)
 
 
 ## Construido con 🛠️ 
