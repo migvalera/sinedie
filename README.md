@@ -1,6 +1,6 @@
 # Sinedie - Agencia de viajes | One Page Website
 
-_Sinedie es un proyecto web one page desarrollado únicamente en HTML5 y CSS3._
+_Sinedie es un proyecto web one page responsive desarrollado únicamente en HTML5 y CSS3._
 
 
 ## Página Web 🌐
