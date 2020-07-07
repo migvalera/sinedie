@@ -36,4 +36,4 @@ _Proyecto elaborado por:_
 
 
 ---
-⌨️ con ❤️ por [Miguel Valera](https://github.com/migvalera) 😊
+⌨️ con ❤️ por [Miguel Valera](https://github.com/migvalera) 😄
