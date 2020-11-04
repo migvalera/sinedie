@@ -51,6 +51,7 @@ button {
   background: #652cea;
   border: none;
   color: white;
+  font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -305,6 +306,7 @@ form div {
 #mensaje {
   padding: 1rem 2rem;
   height: 10rem;
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   margin: 2rem 6rem;
   outline-color: #652cea;
